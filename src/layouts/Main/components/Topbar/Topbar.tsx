@@ -211,8 +211,8 @@ interface Props {
   className?: string;
   onSidebarOpen: Function;
   pages: PagesProps;
-  themeToggler: any;
-  themeMode: any;
+  themeToggler?: any;
+  themeMode?: any;
 }
 
 const Topbar = ({ themeMode, themeToggler, className, onSidebarOpen, pages, t, ...rest }: Props): JSX.Element => {
