@@ -3,8 +3,10 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
-import { List, ListItem, Typography, ListItemIcon, Divider, Button } from '@material-ui/core';
+import { List, ListItem, Typography, ListItemIcon, Divider } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
+import Link from 'next/link';
+import { SelectLang } from 'components/molecules';
 
 import { withTranslation } from 'i18n';
 
@@ -44,6 +46,21 @@ const useStyles = makeStyles(theme => ({
   divider: {
     width: '100%',
   },
+  logoContainer: {
+    cursor: 'pointer',
+    backgroundImage: "url('/static/images/logos/brand_with_name.svg')",
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    width: 180,
+    height: 60,
+    objectFit: 'cover',
+    display: 'flex',
+    alignItems: 'center',
+    [theme.breakpoints.up('md')]: {
+      width: 180,
+      height: 60,
+    },
+  },
 }));
 
 interface Props {
@@ -56,46 +73,62 @@ interface Props {
 const SidebarNav = ({ pages, onClose, t, className, ...rest }: Props): JSX.Element => {
   const classes = useStyles();
 
-  const services = pages.services;
+  const { productInfo, company } = pages;
 
-  const MenuGroup = ({ item }: MenuGroupProps): JSX.Element => (
+  const SimpleMenuGroup = ({ item }: MenuGroupProps): JSX.Element => (
     <List disablePadding>
-      <ListItem disableGutters>
-        <Typography variant="body2" color="primary" className={classes.menuGroupTitle}>
-          {t(item.groupTitle)}
-        </Typography>
-      </ListItem>
       {item.pages.map((page, i) => (
         <ListItem disableGutters key={i} className={classes.menuGroupItem}>
-          <Typography
-            variant="body2"
-            component={'a'}
-            href={page.href}
-            className={clsx(classes.navLink, 'submenu-item')}
-            color="textPrimary"
-            onClick={() => onClose()}
-          >
-            {t(page.title)}
-          </Typography>
+          <Link href={page.href}>
+            <Typography
+              variant="body1"
+              className={clsx(classes.navLink, 'submenu-item')}
+              style={{color: "#8d8d8d"}}
+            >
+              {t(page.title)}
+            </Typography>
+          </Link>
         </ListItem>
       ))}
     </List>
   );
+  // const ServicesPages = (): JSX.Element => {
+  //   const { company, checkpoint, termsOfUse } = services.children;
+  //   return (
+  //     <div className={classes.menu}>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={company} />
+  //         <MenuGroup item={checkpoint} />
+  //       </div>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={termsOfUse} />
+  //       </div>
+  //     </div>
+  //   );
+  // };
 
-  const ServicesPages = (): JSX.Element => {
-    const { company, checkpoint, termsOfUse } = services.children;
+  const ProductInfoPages = (): JSX.Element => {
+    const { subpages: productInfoPages } = productInfo.children;
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
-          <MenuGroup item={company} />
-          <MenuGroup item={checkpoint} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={termsOfUse} />
+          <SimpleMenuGroup item={productInfoPages} />
         </div>
       </div>
     );
   };
+
+  const CompanyPages = (): JSX.Element => {
+    const { subpages: companyPages } = company.children;
+    return (
+      <div className={classes.menu}>
+        <div className={classes.menuItem}>
+          <SimpleMenuGroup item={companyPages} />
+        </div>
+      </div>
+    );
+  };
+
 
   return (
     <List {...rest} className={clsx(classes.root, className)}>
@@ -104,11 +137,28 @@ const SidebarNav = ({ pages, onClose, t, className, ...rest }: Props): JSX.Eleme
           <CloseIcon fontSize="small" />
         </ListItemIcon>
       </ListItem>
+      <div style={{ marginRight: '10vh' }}>
+          <Link href="/">
+            <div className={classes.logoContainer}></div>
+          </Link>
+        </div>
+      <ListItem className={classes.listItem} >
+        <SelectLang />
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Typography variant="h6" color="textPrimary" gutterBottom>
-          {t('SERVICES')}
+          {t('PRODUCT_INFO')}
         </Typography>
-        <ServicesPages />
+        <ProductInfoPages />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Divider className={classes.divider} />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Typography variant="h6" color="textPrimary" gutterBottom>
+          {t('COMPANY')}
+        </Typography>
+        <CompanyPages />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Divider className={classes.divider} />
@@ -116,32 +166,7 @@ const SidebarNav = ({ pages, onClose, t, className, ...rest }: Props): JSX.Eleme
       <ListItem className={classes.listItem}>
         <Divider className={classes.divider} />
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          size="large"
-          variant="contained"
-          color="secondary"
-          fullWidth
-          component="a"
-          target="blank"
-          href="https://secure.immunie.net"
-        >
-          {t('header:HCB_AREA_BTN_TEXT')}
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          size="large"
-          variant="contained"
-          color="primary"
-          fullWidth
-          component="a"
-          target="blank"
-          href="https://app.immunie.net/"
-        >
-          {t('header:USER_AREA_BTN_TEXT')}
-        </Button>
-      </ListItem>
+
     </List>
   );
 };
