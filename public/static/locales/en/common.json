@@ -1,0 +1,65 @@
+{
+  "SERVICES_GROUP_COMPANY": "Company",
+  "SERVICES_SUBGROUP_ABOUT": "About",
+  "SERVICES_SUBGROUP_MEDIA_ASSETS": "Media Assets",
+  "SERVICES_SUBGROUP_CONTACT": "Contact",
+  "SERVICES_GROUP_CHECKPOINT": "Checkpoint",
+  "SERVICES_SUBGROUP_BLOCKCHAIN": "Blockchain Authentication",
+  "SERVICES_GROUP_TERMS_OF_USE": "Terms of Use",
+  "SERVICES_SUBGROUP_PRIVACY_POLICY": "Privacy Policy",
+  "SERVICES_SUBGROUP_TERMS_AND_CONDITIONS": "Terms and Conditions",
+  "SERVICES_SUBGROUP_FAQ": "FAQs",
+
+  "PRODUCTS": "Products",
+  "PRODUCT_GROUP_SUBPAGES": "Product Pages",
+  "PRODUCT_SUBGROUP_PEOPLE_PAGE": "People",
+  "PRODUCT_HEALTH_CARE_PAGE": "Health Care",
+  "PRODUCT_EXAM_LABS_PAGE": "Exam Labs",
+  "PRODUCT_TRAVEL_PAGE": "Travel",
+  "PRODUCT_SCHOOLS_PAGE": "School",
+  "PRODUCT_MANAGERS_PAGE": "Managers",
+
+  "CONTACT_FORM_TITLE": "Contact Us",
+  "CONTACT_FORM_SUBTITLE": "We carefully read and answer to all our emails.",
+  "CONTACT_FORM_FIELD_FULL_NAME": "Full Name",
+  "CONTACT_FORM_FIELD_MESSAGE": "Message",
+  "CONTACT_FORM_REQUIRED_FIELDS": "Fields that are marked with * sign are required.",
+  "CONTACT_FORM_SEND_BTN_TEXT": "Send",
+
+  "PRODUCT_INFO": "Product Info",
+  "PRODUCT_INFO_HOW_IT_WORKS": "How it Works",
+  "PRODUCT_INFO_INDUSTRIES_AND_SECTORS": "Industries & Sectors",
+  "PRODUCT_INFO_PRIVACY_AND_COMPLIANCE": "Privacy & Compliance",
+  "PRODUCT_INFO_FAQS": "FAQs",
+
+  "COMPANY": "Company",
+  "COMPANY_ABOUT_US": "About Us",
+  "COMPANY_NEWS": "News",
+  "COMPANY_BLOGS": "Blogs",
+  "COMPANY_PRIVACY_POLICY": "Privacy Policy",
+  "COMPANY_TERMS_AND_CONDITIONS": "Terms & Conditions",
+
+  "SERVICES": "Services",
+  "SERVICES_FOR_USERS": "For Users",
+  "SERVICES_FOR_SCHOOLS": "For Schools",
+  "SERVICES_FOR_HCPS": "For HCPs",
+  "SERVICES_CONTACT_US": "Contact Us",
+  
+  "CONTACT_FORM_TOPBAR_TITLE_1": "Hello",
+  "CONTACT_FORM_TOPBAR_TITLE_2": "With how can we help you ?",
+  "CONTACT_FORM_TOPBAR_NAME": "Name",
+  "CONTACT_FORM_TOPBAR_E_MAIL": "E-mail",
+  "CONTACT_FORM_TOPBAR_MESSAGE": "Message",
+  "CONTACT_FORM_TOPBAR_SEND_BTN": "Send",
+  "CONTACT_FORM_TOPBAR_ERROR_MESSAGE": "Error, try again later.",
+  "CONTACT_FORM_TOPBAR_CONFIRMATION_MESSAGE": "Email sent!",
+
+
+
+  "FOR_USER": "For Users",
+  "FOR_SCHOOLS": "For Schools",
+  "FOR_HCPS": "For HCPs",
+
+  "ALL_RIGHTS_RESERVED": "© 2021 KIPR Blockchain Ltd Company # 13160773 Trading as Immunie Blockchain. All Rights Reserved."
+
+}

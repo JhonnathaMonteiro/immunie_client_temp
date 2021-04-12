@@ -1,0 +1,33 @@
+{
+  "HERO_TITLE": "About us",
+  "HERO_SUBTITLE": "We are founded by a leading academic and researcher in the field of Industrial Systems Engineering.",
+  
+  "STORY_TITLE": "Our Vision",
+  "STORY_SUBTITLE": "Our vision was born from the belief that a single piece of paper cannot be trusted with our vaccination records in today’s world. We believe, travelling, moving or living abroad must be easier and safer.",
+  
+  "WHO_WE_ARE_TITLE_1": "Our Goal",
+  "WHO_WE_ARE_SUBTITLE_1": "Our goal is to digitally store vaccination and immunization records safely and make it available at the fingertips of the users, using blockchain technology to give people control of their data.",
+  "WHO_WE_ARE_TITLE_2": "Our Values",
+  "WHO_WE_ARE_SUBTITLE_2": "Immunie is committed to have people’s best interest at heart, to be fully transparent, and to respect and promote diversity and different cultures. We believe in teamwork and will always work to offer the best solutions for our customers and partners.",
+
+  "TEAM_TITLE": "Meet our team",
+  "TEAM_SUBTITLE": "After 3 days all of your offers will arrive and you will have another 7 days to select your new company.",
+  "TEAM_ITEM_1_TITLE": "Kate Segelson",
+  "TEAM_ITEM_1_SUBTITLE": "UI/UX Designer",
+  "TEAM_ITEM_2_TITLE": "Alex Johnson",
+  "TEAM_ITEM_2_SUBTITLE": "Web Backend Developer",
+  "TEAM_ITEM_3_TITLE": "Valeria Kogan",
+  "TEAM_ITEM_3_SUBTITLE": "Web Frontend Developer",
+  "TEAM_ITEM_4_TITLE": "Akachi Luccini",
+  "TEAM_ITEM_4_SUBTITLE": "CEO / Co-Founder",
+  "TEAM_ITEM_5_TITLE": "Jack Smith",
+  "TEAM_ITEM_5_SUBTITLE": "CTO / Co-Founder",
+  "TEAM_ITEM_6_TITLE": "Veronica Adams",
+  "TEAM_ITEM_6_SUBTITLE": "Consultant",
+
+  "PARTNERS_TITLE": "Trusted by Millions of People",
+  "PARTNERS_SUBTITLE": "We are registered as a distributor with AMFI, as an investment advisor with SEBI and platform partners with BSE.",
+
+  "GALLERY_TITLE": "Checkout our gallery",
+  "GALLERY_SUBTITLE": "After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
+}

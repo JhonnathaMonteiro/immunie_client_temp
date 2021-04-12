@@ -1,0 +1,36 @@
+{
+  "HERO_TITLE": "Media Assets",
+
+  "BRAND_GUIDELINES_TITLE": "Brand Guidelines",
+  "BRAND_GUIDELINES_SUB_TITLE": "Immunie Content Hub",
+  "BRAND_GUIDELINES_ITEM_1_TITLE": "Logo",
+  "BRAND_GUIDELINES_ITEM_1_TEXT": "The use of the Immunie logo, name and brand are subject to prior written consent and must follow the last updated Brand Guidelines.",
+  "BRAND_GUIDELINES_ITEM_1_DISCLAIMER": "Copyright Immunie 2021",
+  "BRAND_GUIDELINES_ITEM_2_TITLE": "Updated Brand Guidelines 02.02.2021",
+  "BRAND_GUIDELINES_ITEM_2_TEXT": "Immunie Brand Gudelines is available for reference and cannot be used or replicated without prior written consent.",
+  "BRAND_GUIDELINES_ITEM_2_DISCLAIMER": "Copyright Immunie 2021",
+
+  "CATALOGS_TITLE": "Brochures are not available in English now, sorry about it.",
+  "CATALOGS_ITEM_1_TITLE": "Healthcare",
+  "CATALOGS_ITEM_2_TITLE": "Schools",
+  "CATALOGS_ITEM_3_TITLE": "Governments",
+  "CATALOGS_ITEM_4_TITLE": "Exam Labs",
+  "CATALOGS_ITEM_5_TITLE": "Airlines",
+  "CATALOGS_ITEM_6_TITLE": "Legal references",
+
+  "CALENDARS_TITLE": "Reference calendars",
+  "CALENDARS_ITEM_1_TITLE": "National Vaccination Schedule",
+  "CALENDARS_ITEM_1_TEXT": "NHS UK",
+  "CALENDARS_ITEM_1_DISCLAIMER": "Source: https://www.gov.uk/government/publications/the-complete-routine-immunisation-schedule",
+  "CALENDARS_ITEM_2_TITLE": "CDC Vaccination Schedule",
+  "CALENDARS_ITEM_2_TEXT": "CVD US",
+  "CALENDARS_ITEM_2_DISCLAIMER": "Source: https://www.cdc.gov/vaccines/schedules/hcp/imz/child-adolescent.html",
+  "CALENDARS_ITEM_3_TITLE": "National Immunisation Program",
+  "CALENDARS_ITEM_3_TEXT": "Department of Health Australia",
+  "CALENDARS_ITEM_3_DISCLAIMER": "Source: https://www.health.gov.au/health-topics/immunisation/immunisation-throughout-life/national-immunisation-program-schedule",
+
+  "INFOGRAPHIC_TITLE": "Infographic",
+  "INFOGRAPHIC_CARD_TITLE": "Immunie Blockchain",
+  "INFOGRAPHIC_CARD_TEXT": "Infographic of the Immunie Blockchain Concept for Illustration purposes only.",
+  "INFOGRAPHIC_CARD_DISCLAIMER": "Copyright Immunie 2021"
+}

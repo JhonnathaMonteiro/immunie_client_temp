@@ -1,0 +1,14 @@
+{
+  "TITLE": "Contact Us",
+  "SUBTITLE": "Have a question? Want to see a demo? Wondering what we're watching on Netflix? Drop us a line - we'd love to hear from you!",
+  
+  "FULL_NAME_LABEL": "Name",
+  "FULL_NAME_PLACEHOLDER": "Contact Details",
+  "E_MAIL_LABEL": "E-mail",
+  "E_MAIL_PLACEHOLDER": "E-mail",
+  "MESSAGE_LABEL": "Message",
+  "MESSAGE_PLACEHOLDER": "Drop us a line here",
+  "BTN_TEXT": "Send",
+  "CONFIRMATION_MESSAGE": "Message sent!",
+  "ERROR_MESSAGE": "Server error, try later."
+}

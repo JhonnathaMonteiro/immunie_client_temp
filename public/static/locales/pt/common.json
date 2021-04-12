@@ -1,0 +1,28 @@
+{
+  "SERVICES": "Serviços",
+  "SERVICES_GROUP_COMPANY": "Nossa empresa",
+  "SERVICES_SUBGROUP_ABOUT": "Sobre",
+  "SERVICES_SUBGROUP_MEDIA_ASSETS": "Mídias",
+  "SERVICES_SUBGROUP_CONTACT": "Contato",
+  "SERVICES_GROUP_CHECKPOINT": "Checkpoint",
+  "SERVICES_SUBGROUP_BLOCKCHAIN": "Autenticação Blockchain ",
+  "SERVICES_GROUP_TERMS_OF_USE": "Termos de Uso",
+  "SERVICES_SUBGROUP_PRIVACY_POLICY": "Política de Privacidade",
+  "SERVICES_SUBGROUP_TERMS_AND_CONDITIONS": "Termos e Condições",
+  "SERVICES_SUBGROUP_FAQ": "FAQs",
+  "PRODUCTS": "Produtos",
+  "PRODUCT_GROUP_SUBPAGES": "Produtos",
+  "PRODUCT_SUBGROUP_PEOPLE_PAGE": "Pessoas",
+  "PRODUCT_HEALTH_CARE_PAGE": "Setor de Saúde",
+  "PRODUCT_EXAM_LABS_PAGE": "Laboratórios de Exames",
+  "PRODUCT_TRAVEL_PAGE": "Companhias Aéreas",
+  "PRODUCT_SCHOOLS_PAGE": "Escolas",
+  "PRODUCT_MANAGERS_PAGE": "Governos e Grandes Eventos",
+
+  "CONTACT_FORM_TITLE": "Fale Conosco",
+  "CONTACT_FORM_SUBTITLE": "Seu contato é muito importante para nós. Todas as mensagens recebidas são lidas com atenção",
+  "CONTACT_FORM_FIELD_FULL_NAME": "Nome Completo",
+  "CONTACT_FORM_FIELD_MESSAGE": "Mensagem",
+  "CONTACT_FORM_REQUIRED_FIELDS": "Campos marcados com * são obrigatórios.",
+  "CONTACT_FORM_SEND_BTN_TEXT": "ENVIAR"
+}

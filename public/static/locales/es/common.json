@@ -1,0 +1,28 @@
+{
+  "SERVICES": "Servicios",
+  "SERVICES_GROUP_COMPANY": "Companhia",
+  "SERVICES_SUBGROUP_ABOUT": "Nosotros",
+  "SERVICES_SUBGROUP_MEDIA_ASSETS": "Medias",
+  "SERVICES_SUBGROUP_CONTACT": "Contacto",
+  "SERVICES_GROUP_CHECKPOINT": "Checkpoint",
+  "SERVICES_SUBGROUP_BLOCKCHAIN": "Autenticacción Blockchain ",
+  "SERVICES_GROUP_TERMS_OF_USE": "Termos de Utilizacion",
+  "SERVICES_SUBGROUP_PRIVACY_POLICY": "Privacy Policy",
+  "SERVICES_SUBGROUP_TERMS_AND_CONDITIONS": "Termos and Condiciones",
+  "SERVICES_SUBGROUP_FAQ": "FAQs",
+  "PRODUCTS": "Productos",
+  "PRODUCT_GROUP_SUBPAGES": "Páginas de Productos",
+  "PRODUCT_SUBGROUP_PEOPLE_PAGE": "Personas",
+  "PRODUCT_HEALTH_CARE_PAGE": "Hospitales",
+  "PRODUCT_EXAM_LABS_PAGE": "Laboratórios",
+  "PRODUCT_TRAVEL_PAGE": "Viajeros",
+  "PRODUCT_SCHOOLS_PAGE": "Escuelas",
+  "PRODUCT_MANAGERS_PAGE": "Gobiernos",
+
+  "CONTACT_FORM_TITLE": "Contacte-nos",
+  "CONTACT_FORM_SUBTITLE": "Respondemos a todas las mensjenes.",
+  "CONTACT_FORM_FIELD_FULL_NAME": "Nombre y Apelido",
+  "CONTACT_FORM_FIELD_MESSAGE": "Mensaje",
+  "CONTACT_FORM_REQUIRED_FIELDS": "Campos marcados con * son requeridos.",
+  "CONTACT_FORM_SEND_BTN_TEXT": "Enviar"
+}

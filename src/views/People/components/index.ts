@@ -1,0 +1,10 @@
+export { default as Privacy } from './Privacy';
+export { default as HowItWorks } from './HowItWorks';
+export { default as Hero } from './Hero';
+export { default as Integrations } from './Integrations';
+export { default as VaccinationProgram } from './VaccinationProgram';
+export { default as WhereToUse } from './WhereToUse';
+export { default as Pricings } from './Pricings';
+export { default as WhichPlan } from './WhichPlan';
+export { default as BlockchainTech } from './BlockchainTech';
+export { default as WhyDigitalWallet } from './WhyDigitalWallet';

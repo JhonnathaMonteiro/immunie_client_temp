@@ -1,0 +1,36 @@
+{
+  "HERO_TITLE": "Media Assets",
+
+  "BRAND_GUIDELINES_TITLE": "Brand Guidelines",
+  "BRAND_GUIDELINES_SUB_TITLE": "Diretrizes da Marca e Logotipo",
+  "BRAND_GUIDELINES_ITEM_1_TITLE": "Immunie Logo",
+  "BRAND_GUIDELINES_ITEM_1_TEXT": "O logo Immunie está sujeito a autorização prévia e expressa, devendo sempre ser utilizado de acordo com as diretrizes de marca (Brand Guidelines)",
+  "BRAND_GUIDELINES_ITEM_1_DISCLAIMER": "Copyright Immunie 2021",
+  "BRAND_GUIDELINES_ITEM_2_TITLE": "Diretrizes da Marca",
+  "BRAND_GUIDELINES_ITEM_2_TEXT": "O material de diretrizes de marca Immunie está disponível para referência e não pode ser reproduzido sem autorização da empresa.",
+  "BRAND_GUIDELINES_ITEM_2_DISCLAIMER": "Copyright Immunie 2021",
+
+  "CATALOGS_TITLE": "Catálogos e Folhetos",
+  "CATALOGS_ITEM_1_TITLE": "Setor de Saúde",
+  "CATALOGS_ITEM_2_TITLE": "Educação",
+  "CATALOGS_ITEM_3_TITLE": "Setor Público",
+  "CATALOGS_ITEM_4_TITLE": "Laboratórios",
+  "CATALOGS_ITEM_5_TITLE": "Cias Aérias",
+  "CATALOGS_ITEM_6_TITLE": "Legislação",
+
+  "CALENDARS_TITLE": "Calendários",
+  "CALENDARS_ITEM_1_TITLE": "PNI/MS",
+  "CALENDARS_ITEM_1_TEXT": "Repositório de conteúdo de domínio público publicado pelo Ministério da Saúde e obtido através de download em  Jan/2021",
+  "CALENDARS_ITEM_1_DISCLAIMER": "Conteúdo de responsabilidade e propriedade do Minisério da Saúde",
+  "CALENDARS_ITEM_2_TITLE": "SBIm",
+  "CALENDARS_ITEM_2_TEXT": "Repositório de conteúdo de domínio público disponibilizado pela SBIm via download em Jan/2021",
+  "CALENDARS_ITEM_2_DISCLAIMER": "Conteúdo de responsabilidade e propriedade da SBIm",
+  "CALENDARS_ITEM_3_TITLE": "SBP",
+  "CALENDARS_ITEM_3_TEXT": "Repositório de conteúdo de domínio público publicado SBP via web e obtido via download em Jan/2021",
+  "CALENDARS_ITEM_3_DISCLAIMER": "Conteúdo de responsabilidade e propriedade da SBP",
+
+  "INFOGRAPHIC_TITLE": "Infográfico",
+  "INFOGRAPHIC_CARD_TITLE": "Immunie Blockchain",
+  "INFOGRAPHIC_CARD_TEXT": "Infográfico do conceito da rede Immunie Blockchain. Conteúdo meramente ilustrativo.",
+  "INFOGRAPHIC_CARD_DISCLAIMER": "Copyright Immunie 2021"
+}

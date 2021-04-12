@@ -1,0 +1,14 @@
+{
+  "TITLE": "Fale Conosco",
+  "SUBTITLE": "Seu contato é muito bem vindo!",
+  
+  "FULL_NAME_LABEL": "Nome ",
+  "FULL_NAME_PLACEHOLDER": "Seu Nome Completo",
+  "E_MAIL_LABEL": "E-mail",
+  "E_MAIL_PLACEHOLDER": "E-mail",
+  "MESSAGE_LABEL": "Mensagem",
+  "MESSAGE_PLACEHOLDER": "Sua Mensagem",
+  "BTN_TEXT": "Enviar",
+  "CONFIRMATION_MESSAGE": "Mensagem enviada!",
+  "ERROR_MESSAGE": "Erro no servidor, tente mais tarde."
+}

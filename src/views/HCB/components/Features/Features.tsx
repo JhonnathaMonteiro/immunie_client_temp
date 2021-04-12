@@ -1,0 +1,156 @@
+import React from 'react';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { colors, useMediaQuery, Grid, ListItem, ListItemAvatar, Typography, Avatar, Button } from '@material-ui/core';
+import { Image } from 'components/atoms';
+import { SectionHeader } from 'components/molecules';
+import { CardBase, DescriptionListIcon } from 'components/organisms';
+import { withTranslation } from 'i18n';
+import Link from 'next/link';
+
+const useStyles = makeStyles(theme => ({
+  checkBox: {
+    background: 'transparent',
+    borderRadius: 0,
+  },
+  cta: {
+    marginTop: theme.spacing(3),
+    [theme.breakpoints.up('md')]: {
+      marginTop: theme.spacing(6),
+    },
+  },
+  featureItems: {
+    width: '100%',
+    height: '100%',
+    background: 'url(https://assets.maccarianagency.com/the-front/illustrations/bg-shapes.svg) no-repeat top center',
+    backgroundSize: 'contain',
+
+    [theme.breakpoints.up('md')]: {
+      padding: theme.spacing(3),
+    },
+  },
+  gridItemPositioned: {
+    marginTop: '25%',
+  },
+  iconCover: {
+    width: 60,
+    height: 60,
+    background: 'url(https://assets.maccarianagency.com/the-front/illustrations/bgicon.svg) no-repeat center center',
+    backgroundSize: 'contain',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: colors.indigo[500],
+    fontSize: 35,
+    [theme.breakpoints.up('md')]: {
+      width: 80,
+      height: 80,
+      fontSize: 50,
+    },
+  },
+  icon: {
+    width: 60,
+    height: 60,
+  },
+  propsGrid: {
+    height: '100%',
+  },
+}));
+
+const Features = ({ data, className, t, ...rest }: ViewComponentProps): JSX.Element => {
+  const classes = useStyles();
+
+  const theme = useTheme();
+  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+    defaultMatches: true,
+  });
+
+  const { items, properties } = data;
+
+  return (
+    <div className={className} {...rest}>
+      <Grid container spacing={isMd ? 4 : 2}>
+        <Grid item xs={12} md={6} data-aos="fade-up">
+          <div className={classes.featureItems}>
+            <Grid container spacing={isMd ? 4 : 1}>
+              <Grid item xs={6}>
+                <Grid container spacing={isMd ? 4 : 1} direction="column">
+                  {items.slice(0, 2).map((item: any, index: number) => (
+                    <Grid item xs={12} key={index} data-aos="fade-up">
+                      <CardBase withShadow liftUp>
+                        <DescriptionListIcon
+                          icon={
+                            <div className={classes.iconCover}>
+                              {/* <NoSsr><i className={item.icon} /></NoSsr> */}
+                              <Image className={classes.icon} src={item.icon} />
+                            </div>
+                          }
+                          title={t(item.title)}
+                          subtitle={t(item.subtitle)}
+                        />
+                      </CardBase>
+                    </Grid>
+                  ))}
+                </Grid>
+              </Grid>
+              <Grid item xs={6} className={classes.gridItemPositioned}>
+                <Grid container spacing={isMd ? 4 : 1} direction="column">
+                  {items.slice(items.length - 2, items.length).map((item: any, index: number) => (
+                    <Grid item xs={12} key={index} data-aos="fade-up">
+                      <CardBase withShadow liftUp>
+                        <DescriptionListIcon
+                          icon={
+                            <div className={classes.iconCover}>
+                              {/* <NoSsr><i className={item.icon} /></NoSsr> */}
+                              <Image className={classes.icon} src={item.icon} />
+                            </div>
+                          }
+                          title={t(item.title)}
+                          subtitle={t(item.subtitle)}
+                        />
+                      </CardBase>
+                    </Grid>
+                  ))}
+                </Grid>
+              </Grid>
+            </Grid>
+          </div>
+        </Grid>
+        <Grid item xs={12} md={6} data-aos="fade-up">
+          <Grid container alignItems="flex-start" justify="center" direction="column" className={classes.propsGrid}>
+            <SectionHeader
+              label={t('FEATURES_LABEL')}
+              title={t('FEATURES_TITLE')}
+              subtitle={t('FEATURES_SUBTITLE')}
+              align="left"
+              disableGutter
+            />
+            <Grid container spacing={0}>
+              {properties.map((item: any, index: number) => (
+                <Grid item xs={12} key={index} data-aos="fade-up">
+                  <ListItem disableGutters>
+                    <ListItemAvatar>
+                      <Avatar
+                        src="https://assets.maccarianagency.com/the-front/illustrations/check-icon-yellow.svg"
+                        className={classes.checkBox}
+                      />
+                    </ListItemAvatar>
+                    <Typography variant="subtitle1" color="textPrimary" noWrap>
+                      {t(item)}
+                    </Typography>
+                  </ListItem>
+                </Grid>
+              ))}
+            </Grid>
+            <Link href="https://secure.immunie.net/register">
+              <Button size="large" variant="contained" color="primary" className={classes.cta} data-aos="fade-up">
+                {t('FEATURES_BTN_TEXT')}
+              </Button>
+            </Link>
+          </Grid>
+        </Grid>
+      </Grid>
+    </div>
+  );
+};
+
+export default withTranslation('healthCarePage')(Features);

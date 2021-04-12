@@ -1,0 +1,10 @@
+export { default as About } from './About';
+export { default as Advantages } from './Advantages';
+export { default as Contact } from './Contact';
+export { default as Description } from './Description';
+export { default as Gallery } from './Gallery';
+export { default as Hero } from './Hero';
+export { default as PromoNumbers } from './PromoNumbers';
+export { default as Privacy } from './Privacy';
+export { default as Features } from './Features';
+export { default as VideoSection } from './VideoSection';

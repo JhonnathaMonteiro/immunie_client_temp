@@ -1,0 +1,11 @@
+export { default as Privacy } from './Privacy';
+export { default as HowItWorks } from './HowItWorks';
+export { default as Hero } from './Hero';
+export { default as Integrations } from './Integrations';
+export { default as HowToUse } from './HowToUse';
+export { default as BlockchainTech } from './BlockchainTech';
+export { default as BuildFor } from './BuildFor';
+export { default as SeeAlso } from './SeeAlso';
+export { default as Story } from './Story';
+export { default as Reviews } from './Reviews';
+export { default as Partners } from './Partners';

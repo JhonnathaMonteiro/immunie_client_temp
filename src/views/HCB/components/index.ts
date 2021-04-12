@@ -1,0 +1,11 @@
+export { default as About } from './About';
+export { default as SeeAlso } from './SeeAlso';
+export { default as Features } from './Features';
+export { default as Hero } from './Hero';
+export { default as HowItWorks } from './HowItWorks';
+export { default as Network } from './Network';
+export { default as Partners } from './Partners';
+export { default as Reviews } from './Reviews';
+export { default as Privacy } from './Privacy';
+export { default as Story } from './Story';
+export { default as Support } from './Support';

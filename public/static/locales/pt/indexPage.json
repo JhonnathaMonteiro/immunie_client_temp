@@ -1,0 +1,80 @@
+﻿{
+  "HOMEPAGE_MAIN_HEADER": "Carteira de Vacinação Digital Internacional",
+  "HOMEPAGE_MAIN_TXT": "Registros de vacinação certificados com tecnologia Blockchain. Guarde seus registros com segurança e compartilhe quando quiser com clínicas, escolas e viajando.",
+
+  "HOMEPAGE_COUNT_CARD_NUMBER_1": "12",
+  "HOMEPAGE_COUNT_CARD_TXT_1": "Idiomas",
+  "HOMEPAGE_COUNT_CARD_NUMBER_2": "34",
+  "HOMEPAGE_COUNT_CARD_TXT_2": "Países",
+  "HOMEPAGE_COUNT_CARD_NUMBER_3": "840",
+  "HOMEPAGE_COUNT_CARD_TXT_3": "Vacinas Locais",
+
+  "PEOPLE_TXT_TITLE": "PARA VOCÊ",
+  "PEOPLE_TXT_SUBTITLE": "Carteira de vacinação e saúde digital",
+  "PEOPLE_TXT_BTN": "Mais Info",
+
+  "CLINICS_TXT_TITLE": "CLÍNICAS",
+  "CLINICS_TXT_SUBTITLE": "Mais pacientes, menor papel",
+  "CLINICS_TXT_BTN": "Mais Info",
+
+  "LABS_TXT_TITLE": "EXAMES",
+  "LABS_TXT_SUBTITLE": "Resultados de exames autenticados digitalmente. Integração segura com cias aéreas e escolas.",
+  "LABS_TXT_BTN": "Mais Info",
+
+  "TRAVEL_TXT_TITLE": "CIAS AÉREAS",
+  "TRAVEL_TXT_SUBTITLE": "Check In digital com segurança",
+  "TRAVEL_TXT_BTN": "Mais Info",
+
+  "SCHOOLS_TXT_TITLE": "ESCOLAS",
+  "SCHOOLS_TXT_SUBTITLE": "Vacinas e saúde dos alunos",
+  "SCHOOLS_TXT_BTN": "Mais Info",
+  
+  "MANAGERS_TXT_TITLE": "GESTORES",
+  "MANAGERS_TXT_SUBTITLE": "Saúde Pública – Eventos Esportivos – Shows e Festivais",
+  "MANAGERS_TXT_BTN": "Mais Info",
+
+  "HOMEPAGE_HCB_BUTTON": "CLÍNICAS",
+  "HOMEPAGE_USER_BUTTON": "Usuários",
+  "HOMEPAGE_ISOMETRIC_HEADER": "Immunie Blockchain",
+
+  "NAVIGATION_HERO_PRODUCT_PEOPLE_TITLE": "Pessoas",
+  "NAVIGATION_HERO_PRODUCT_PEOPLE_MAIN_TEXT": "Carteira Digital de Vacinação e Saúde",
+  "NAVIGATION_HERO_PRODUCT_PEOPLE_SUB_TEXT": "Segurança e comodidade para você e sua família.",
+  "NAVIGATION_HERO_PRODUCT_PEOPLE_BTN_TEXT": "MAIS INFO",
+  "NAVIGATION_HERO_PRODUCT_PEOPLE_LEARN_MORE": "Criar conta",
+  
+  "NAVIGATION_HERO_PRODUCT_HEALTH_CARE_TITLE": "Clínicas",
+  "NAVIGATION_HERO_PRODUCT_HEALTH_CARE_MAIN_TEXT": "Trabalhando lado a lado com setor de saúde para servir melhor.",
+  "NAVIGATION_HERO_PRODUCT_HEALTH_CARE_SUB_TEXT": "Conecte sua clínica a pacientes, escolas e laboratórios",
+  "NAVIGATION_HERO_PRODUCT_HEALTH_CARE_BTN_TEXT": "MAIS INFO",
+  "NAVIGATION_HERO_PRODUCT_HEALTH_CARE_LEARN_MORE": "Registrar clínica",
+
+  "NAVIGATION_HERO_PRODUCT_EXAM_LABS_TITLE": "Laboratórios",
+  "NAVIGATION_HERO_PRODUCT_EXAM_LABS_MAIN_TEXT": "Ofereça a conexão de resultados com empresas aéreas e escolas para seus clientes.",
+  "NAVIGATION_HERO_PRODUCT_EXAM_LABS_SUB_TEXT": "Resultados autenticados via Blockchain",
+  "NAVIGATION_HERO_PRODUCT_EXAM_LABS_BTN_TEXT": "MAIS INFO",
+  "NAVIGATION_HERO_PRODUCT_EXAM_LABS_LEARN_MORE": "Cadastrar laboratório",
+
+  "NAVIGATION_HERO_PRODUCT_TRAVEL_TITLE": "Cias Aéreas",
+  "NAVIGATION_HERO_PRODUCT_TRAVEL_MAIN_TEXT": "Exames e controles médicos autenticados digitalmente via Blockchain.",
+  "NAVIGATION_HERO_PRODUCT_TRAVEL_SUB_TEXT": "Check In digital, rápido e seguro",
+  "NAVIGATION_HERO_PRODUCT_TRAVEL_BTN_TEXT": "MAIS INFO",
+  "NAVIGATION_HERO_PRODUCT_TRAVEL_LEARN_MORE": "Consultar Checkpoint",
+
+  "NAVIGATION_HERO_PRODUCT_SCHOOLS_TITLE": "Escolas",
+  "NAVIGATION_HERO_PRODUCT_SCHOOLS_MAIN_TEXT": "Gestão digital da Saúde dos seus Alunos.",
+  "NAVIGATION_HERO_PRODUCT_SCHOOLS_SUB_TEXT": "Vacinas, Ficha de Saúde, Contatos",
+  "NAVIGATION_HERO_PRODUCT_SCHOOLS_BTN_TEXT": "MAIS INFO",
+  "NAVIGATION_HERO_PRODUCT_SCHOOLS_LEARN_MORE": "Portal escolas",
+
+  "NAVIGATION_HERO_PRODUCT_MANAGERS_TITLE": "Administração",
+  "NAVIGATION_HERO_PRODUCT_MANAGERS_MAIN_TEXT": "Gestão digital de Saúde Pública e Grandes Eventos.",
+  "NAVIGATION_HERO_PRODUCT_MANAGERS_SUB_TEXT": "Mais segurança, menos custos.",
+  "NAVIGATION_HERO_PRODUCT_MANAGERS_BTN_TEXT": "MAIS INFO",
+  "NAVIGATION_HERO_PRODUCT_MANAGERS_LEARN_MORE": "Solicitar contato",
+
+  "PRIVACY_LABEL": "PRIVACIDADE",
+  "PRIVACY_TITLE": "Padrão Global de Privacidade de Dados",
+  "PRIVACY_SUBTITLE": "Immunie foi construído de acordo com os mais elevados padrões de privacidade global, estando 100% de acordo com a LGPDP no Brasil, GDPR Europeu e CDPA California.",
+  "PRIVACY_BTN_TEXT": "Saber Mais"
+}
